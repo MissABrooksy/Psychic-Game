@@ -56,7 +56,6 @@ function guessesLeft (){
 };
 
 function letterToGuess() {
-  // Here we get a random letterToGuess and assign it based on a random generator (only looking at a, b, or c)
   letterToGuess = letters[Math.floor(Math.random() * letters.length)];
 };
 
@@ -64,4 +63,6 @@ function guesses() {
   document.getElementById("guesses").innerHTML = guessedLetters.join(", ");
 };
 
-        
+function startOver() {
+  //reset the game code heree
+}      
